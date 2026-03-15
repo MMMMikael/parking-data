@@ -68,7 +68,7 @@ for city, prices in cities.items():
         })
 
 # prendre les 20 villes avec le plus d'annonces
-results = sorted(results, key=lambda x: x["annonces"], reverse=True)[:20]
+results = sorted(results, key=lambda x: x["annonces"], reverse=True)[:100]
 
 data = {"villes": results}
 

@@ -1,10 +1,124 @@
 {
   "villes": [
     {
-      "ville": "Haute-Savoie",
-      "prix": 25693,
+      "ville": "Annecy",
+      "prix": 30639,
+      "rendement": 3.1,
+      "annonces": 376
+    },
+    {
+      "ville": "Chamb\u00e9ry",
+      "prix": 22395,
+      "rendement": 4.3,
+      "annonces": 215
+    },
+    {
+      "ville": "Annemasse",
+      "prix": 21773,
+      "rendement": 4.4,
+      "annonces": 123
+    },
+    {
+      "ville": "Thonon-les-Bains",
+      "prix": 21501,
+      "rendement": 4.5,
+      "annonces": 118
+    },
+    {
+      "ville": "Aix-les-Bains",
+      "prix": 23079,
+      "rendement": 4.2,
+      "annonces": 113
+    },
+    {
+      "ville": "Sallanches",
+      "prix": 22854,
+      "rendement": 4.2,
+      "annonces": 100
+    },
+    {
+      "ville": "Albertville",
+      "prix": 26002,
       "rendement": 3.7,
-      "annonces": 1838
+      "annonces": 74
+    },
+    {
+      "ville": "Villarembert",
+      "prix": 43504,
+      "rendement": 2.2,
+      "annonces": 71
+    },
+    {
+      "ville": "La Plagne Tarentaise",
+      "prix": 29181,
+      "rendement": 3.3,
+      "annonces": 66
+    },
+    {
+      "ville": "Gaillard",
+      "prix": 26594,
+      "rendement": 3.6,
+      "annonces": 51
+    },
+    {
+      "ville": "Modane",
+      "prix": 41248,
+      "rendement": 2.3,
+      "annonces": 47
+    },
+    {
+      "ville": "\u00c9vian-les-Bains",
+      "prix": 24060,
+      "rendement": 4.0,
+      "annonces": 41
+    },
+    {
+      "ville": "Courchevel",
+      "prix": 23064,
+      "rendement": 4.2,
+      "annonces": 39
+    },
+    {
+      "ville": "Bonneville",
+      "prix": 30421,
+      "rendement": 3.2,
+      "annonces": 38
+    },
+    {
+      "ville": "Les Belleville",
+      "prix": 18628,
+      "rendement": 5.2,
+      "annonces": 37
+    },
+    {
+      "ville": "Cluses",
+      "prix": 34130,
+      "rendement": 2.8,
+      "annonces": 32
+    },
+    {
+      "ville": "Bourg-Saint-Maurice",
+      "prix": 24166,
+      "rendement": 4.0,
+      "annonces": 31
+    },
+    {
+      "ville": "Cognin",
+      "prix": 21983,
+      "rendement": 4.4,
+      "annonces": 31
+    },
+    {
+      "ville": "Epagny Metz-Tessy",
+      "prix": 23532,
+      "rendement": 4.1,
+      "annonces": 31
+    },
+    {
+      "ville": "Meg\u00e8ve",
+      "prix": 26693,
+      "rendement": 3.6,
+      "annonces": 31
     }
   ]
 }

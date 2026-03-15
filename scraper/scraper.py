@@ -1,75 +1,69 @@
 import requests
-import json
+from bs4 import BeautifulSoup
 import statistics
+import json
 
 cities = {
-    "Annecy": "annecy",
-    "Annemasse": "annemasse",
-    "Cluses": "cluses",
-    "Thonon": "thonon",
-    "Sallanches": "sallanches"
+    "Annecy": "annecy-74",
+    "Annemasse": "annemasse-74",
+    "Cluses": "cluses-74",
+    "Thonon": "thonon-les-bains-74",
+    "Sallanches": "sallanches-74"
+}
+
+headers = {
+    "User-Agent": "Mozilla/5.0"
 }
 
 data = {"villes":[]}
 
-url = "https://api.leboncoin.fr/finder/search"
+for city, slug in cities.items():
 
-headers = {
-    "Content-Type": "application/json"
-}
+    url = f"https://www.seloger.com/list.htm?types=2&projects=2&places=[{{ci:{slug}}}]&enterprise=0&qsVersion=1.0&types=2&natures=1&categories=garage"
 
-for city, location in cities.items():
+    r = requests.get(url, headers=headers)
 
-    payload = {
-        "text": "garage",
-        "location": location,
-        "limit": 50
-    }
+    soup = BeautifulSoup(r.text, "html.parser")
 
-    try:
+    prices = []
 
-        r = requests.post(url, headers=headers, json=payload)
+    for span in soup.find_all("span"):
 
-        result = r.json()
+        text = span.get_text()
 
-        prices = []
+        if "€" in text:
 
-        for ad in result.get("ads", []):
+            text = text.replace("€","").replace(" ","")
 
-            if "price" in ad and ad["price"]:
+            try:
 
-                price = ad["price"][0]
+                price = int(text)
 
-                if price < 100000:
+                if 2000 < price < 100000:
 
                     prices.append(price)
 
-        if prices:
+            except:
 
-            avg_price = int(statistics.mean(prices))
+                pass
 
-            rendement = round((80*12)/avg_price*100,1)
+    if prices:
 
-        else:
+        avg_price = int(statistics.mean(prices))
 
-            avg_price = 0
-            rendement = 0
+        rendement = round((80*12)/avg_price*100,1)
 
-        data["villes"].append({
-            "ville": city,
-            "prix": avg_price,
-            "rendement": rendement,
-            "annonces": len(prices)
-        })
+    else:
 
-    except:
+        avg_price = 0
+        rendement = 0
 
-        data["villes"].append({
-            "ville": city,
-            "prix": 0,
-            "rendement": 0,
-            "annonces": 0
-        })
+    data["villes"].append({
+        "ville": city,
+        "prix": avg_price,
+        "rendement": rendement,
+        "annonces": len(prices)
+    })
 
 with open("data.json","w") as f:
 

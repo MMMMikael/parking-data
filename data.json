@@ -1,34 +1,10 @@
 {
   "villes": [
     {
-      "ville": "Annecy",
-      "prix": 0,
-      "rendement": 0,
-      "annonces": 0
-    },
-    {
-      "ville": "Annemasse",
-      "prix": 0,
-      "rendement": 0,
-      "annonces": 0
-    },
-    {
-      "ville": "Cluses",
-      "prix": 0,
-      "rendement": 0,
-      "annonces": 0
-    },
-    {
-      "ville": "Thonon",
-      "prix": 0,
-      "rendement": 0,
-      "annonces": 0
-    },
-    {
-      "ville": "Sallanches",
-      "prix": 0,
-      "rendement": 0,
-      "annonces": 0
+      "ville": "Haute-Savoie",
+      "prix": 486980,
+      "rendement": 0.2,
+      "annonces": 21975
     }
   ]
 }

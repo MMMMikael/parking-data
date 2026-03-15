@@ -34,7 +34,7 @@ for url in urls:
 
         try:
 
-            if row["type_local"] == "Dépendance":
+            if row["type_local"] == "Dépendance" and row["nature_culture"] in ["Parking", "Garage"]:
 
                 price = float(row["valeur_fonciere"])
                 surface = row["surface_reelle_bati"]

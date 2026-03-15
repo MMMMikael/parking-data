@@ -1,30 +1,51 @@
 import requests
+import csv
+import io
 import json
+import statistics
 
-url = "https://www.data.gouv.fr/api/1/datasets/r/6c0f1d0d-9a40-4c7f-bfe1-d8b9b16c0da6"
+url = "https://files.data.gouv.fr/geo-dvf/latest/csv/2023/departements/74.csv.gz"
 
 r = requests.get(url)
 
-data = r.json()
+# lire le CSV
+content = io.StringIO(r.text)
+
+reader = csv.DictReader(content)
 
 prices = []
 
-for row in data:
+for row in reader:
 
-    if row["code_departement"] == "74":
+    try:
 
-        if "garage" in row["type_local"].lower():
+        if row["code_departement"] == "74":
 
-            prices.append(row["valeur_fonciere"])
+            if row["type_local"] == "Dépendance":
 
-avg_price = sum(prices) / len(prices)
+                price = float(row["valeur_fonciere"])
 
-output = {
+                if price > 1000:
+
+                    prices.append(price)
+
+    except:
+        pass
+
+if prices:
+
+    avg_price = int(statistics.mean(prices))
+
+else:
+
+    avg_price = 0
+
+data = {
     "villes":[
         {
             "ville":"Haute-Savoie",
-            "prix":int(avg_price),
-            "rendement":round((80*12)/avg_price*100,1),
+            "prix":avg_price,
+            "rendement":round((80*12)/avg_price*100,1) if avg_price else 0,
             "annonces":len(prices)
         }
     ]
@@ -32,4 +53,6 @@ output = {
 
 with open("data.json","w") as f:
 
-    json.dump(output,f,indent=2)
+    json.dump(data,f,indent=2)
+
+print("data updated")

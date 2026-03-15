@@ -2,28 +2,28 @@
   "villes": [
     {
       "ville": "Annecy",
-      "prix": 11729,
-      "rendement": 8.2
-    },
-    {
-      "ville": "Annemasse",
-      "prix": 16182,
-      "rendement": 5.9
-    },
-    {
-      "ville": "Cluses",
-      "prix": 13760,
-      "rendement": 7.0
-    },
-    {
-      "ville": "Thonon",
-      "prix": 13470,
+      "prix": 13612,
       "rendement": 7.1
     },
     {
+      "ville": "Annemasse",
+      "prix": 17863,
+      "rendement": 5.4
+    },
+    {
+      "ville": "Cluses",
+      "prix": 19012,
+      "rendement": 5.0
+    },
+    {
+      "ville": "Thonon",
+      "prix": 10304,
+      "rendement": 9.3
+    },
+    {
       "ville": "Sallanches",
-      "prix": 15972,
-      "rendement": 6.0
+      "prix": 15382,
+      "rendement": 6.2
     }
   ]
 }

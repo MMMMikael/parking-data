@@ -23,6 +23,9 @@ jobs:
       with:
         python-version: "3.11"
 
+    - name: install packages
+      run: pip install -r requirements.txt
+
     - name: run scraper
       run: python scraper/scraper.py
 

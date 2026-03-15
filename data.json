@@ -119,6 +119,486 @@
       "prix": 26693,
       "rendement": 3.6,
       "annonces": 31
+    },
+    {
+      "ville": "Saint-Julien-en-Genevois",
+      "prix": 22582,
+      "rendement": 4.3,
+      "annonces": 28
+    },
+    {
+      "ville": "Arenthon",
+      "prix": 25526,
+      "rendement": 3.8,
+      "annonces": 28
+    },
+    {
+      "ville": "Chamonix-Mont-Blanc",
+      "prix": 25018,
+      "rendement": 3.8,
+      "annonces": 27
+    },
+    {
+      "ville": "Rumilly",
+      "prix": 15765,
+      "rendement": 6.1,
+      "annonces": 26
+    },
+    {
+      "ville": "Morzine",
+      "prix": 24280,
+      "rendement": 4.0,
+      "annonces": 26
+    },
+    {
+      "ville": "Saint-Jean-de-Maurienne",
+      "prix": 17916,
+      "rendement": 5.4,
+      "annonces": 24
+    },
+    {
+      "ville": "Saint-Gervais-les-Bains",
+      "prix": 23584,
+      "rendement": 4.1,
+      "annonces": 23
+    },
+    {
+      "ville": "Publier",
+      "prix": 26522,
+      "rendement": 3.6,
+      "annonces": 22
+    },
+    {
+      "ville": "Les Gets",
+      "prix": 24637,
+      "rendement": 3.9,
+      "annonces": 22
+    },
+    {
+      "ville": "La Motte-Servolex",
+      "prix": 18280,
+      "rendement": 5.3,
+      "annonces": 21
+    },
+    {
+      "ville": "Ar\u00e2ches-la-Frasse",
+      "prix": 26655,
+      "rendement": 3.6,
+      "annonces": 21
+    },
+    {
+      "ville": "Saint Fran\u00e7ois Longchamp",
+      "prix": 30979,
+      "rendement": 3.1,
+      "annonces": 20
+    },
+    {
+      "ville": "Tignes",
+      "prix": 35539,
+      "rendement": 2.7,
+      "annonces": 18
+    },
+    {
+      "ville": "Samo\u00ebns",
+      "prix": 18811,
+      "rendement": 5.1,
+      "annonces": 18
+    },
+    {
+      "ville": "Les Allues",
+      "prix": 25382,
+      "rendement": 3.8,
+      "annonces": 17
+    },
+    {
+      "ville": "Challes-les-Eaux",
+      "prix": 23617,
+      "rendement": 4.1,
+      "annonces": 17
+    },
+    {
+      "ville": "La Roche-sur-Foron",
+      "prix": 26293,
+      "rendement": 3.7,
+      "annonces": 17
+    },
+    {
+      "ville": "La Ravoire",
+      "prix": 16431,
+      "rendement": 5.8,
+      "annonces": 16
+    },
+    {
+      "ville": "Le Bourget-du-Lac",
+      "prix": 17780,
+      "rendement": 5.4,
+      "annonces": 16
+    },
+    {
+      "ville": "Sales",
+      "prix": 19937,
+      "rendement": 4.8,
+      "annonces": 16
+    },
+    {
+      "ville": "\u00c9trembi\u00e8res",
+      "prix": 19566,
+      "rendement": 4.9,
+      "annonces": 15
+    },
+    {
+      "ville": "Th\u00f4nes",
+      "prix": 23820,
+      "rendement": 4.0,
+      "annonces": 15
+    },
+    {
+      "ville": "Ambilly",
+      "prix": 23766,
+      "rendement": 4.0,
+      "annonces": 15
+    },
+    {
+      "ville": "V\u00e9traz-Monthoux",
+      "prix": 30133,
+      "rendement": 3.2,
+      "annonces": 15
+    },
+    {
+      "ville": "Viry",
+      "prix": 11373,
+      "rendement": 8.4,
+      "annonces": 15
+    },
+    {
+      "ville": "Taninges",
+      "prix": 35262,
+      "rendement": 2.7,
+      "annonces": 15
+    },
+    {
+      "ville": "Val-Cenis",
+      "prix": 37693,
+      "rendement": 2.5,
+      "annonces": 14
+    },
+    {
+      "ville": "Allonzier-la-Caille",
+      "prix": 23571,
+      "rendement": 4.1,
+      "annonces": 14
+    },
+    {
+      "ville": "La Balme-de-Sillingy",
+      "prix": 14571,
+      "rendement": 6.6,
+      "annonces": 14
+    },
+    {
+      "ville": "Mieussy",
+      "prix": 47295,
+      "rendement": 2.0,
+      "annonces": 14
+    },
+    {
+      "ville": "Mo\u00fbtiers",
+      "prix": 20238,
+      "rendement": 4.7,
+      "annonces": 13
+    },
+    {
+      "ville": "Poisy",
+      "prix": 20023,
+      "rendement": 4.8,
+      "annonces": 13
+    },
+    {
+      "ville": "Reignier-\u00c9sery",
+      "prix": 17383,
+      "rendement": 5.5,
+      "annonces": 13
+    },
+    {
+      "ville": "Saint-Cergues",
+      "prix": 38846,
+      "rendement": 2.5,
+      "annonces": 13
+    },
+    {
+      "ville": "Saint-Jean-d'Aulps",
+      "prix": 13730,
+      "rendement": 7.0,
+      "annonces": 13
+    },
+    {
+      "ville": "Aillon-le-Jeune",
+      "prix": 43543,
+      "rendement": 2.2,
+      "annonces": 12
+    },
+    {
+      "ville": "Gr\u00e9sy-sur-Aix",
+      "prix": 22833,
+      "rendement": 4.2,
+      "annonces": 12
+    },
+    {
+      "ville": "Cranves-Sales",
+      "prix": 17916,
+      "rendement": 5.4,
+      "annonces": 12
+    },
+    {
+      "ville": "Les Houches",
+      "prix": 15541,
+      "rendement": 6.2,
+      "annonces": 12
+    },
+    {
+      "ville": "Bog\u00e8ve",
+      "prix": 39973,
+      "rendement": 2.4,
+      "annonces": 12
+    },
+    {
+      "ville": "Aime-la-Plagne",
+      "prix": 35309,
+      "rendement": 2.7,
+      "annonces": 11
+    },
+    {
+      "ville": "Le Grand-Bornand",
+      "prix": 34818,
+      "rendement": 2.8,
+      "annonces": 11
+    },
+    {
+      "ville": "Ch\u00e2tel",
+      "prix": 26689,
+      "rendement": 3.6,
+      "annonces": 11
+    },
+    {
+      "ville": "Douvaine",
+      "prix": 34390,
+      "rendement": 2.8,
+      "annonces": 11
+    },
+    {
+      "ville": "Fontcouverte-la-Toussuire",
+      "prix": 44106,
+      "rendement": 2.2,
+      "annonces": 10
+    },
+    {
+      "ville": "Hauteluce",
+      "prix": 20700,
+      "rendement": 4.6,
+      "annonces": 10
+    },
+    {
+      "ville": "Champagny-en-Vanoise",
+      "prix": 17200,
+      "rendement": 5.6,
+      "annonces": 10
+    },
+    {
+      "ville": "Ville-la-Grand",
+      "prix": 22350,
+      "rendement": 4.3,
+      "annonces": 10
+    },
+    {
+      "ville": "Veigy-Foncenex",
+      "prix": 28580,
+      "rendement": 3.4,
+      "annonces": 10
+    },
+    {
+      "ville": "Bernex",
+      "prix": 36461,
+      "rendement": 2.6,
+      "annonces": 10
+    },
+    {
+      "ville": "Morillon",
+      "prix": 19220,
+      "rendement": 5.0,
+      "annonces": 10
+    },
+    {
+      "ville": "Saint-Michel-de-Maurienne",
+      "prix": 38619,
+      "rendement": 2.5,
+      "annonces": 9
+    },
+    {
+      "ville": "Albiez-Montrond",
+      "prix": 28000,
+      "rendement": 3.4,
+      "annonces": 9
+    },
+    {
+      "ville": "Valloire",
+      "prix": 13122,
+      "rendement": 7.3,
+      "annonces": 9
+    },
+    {
+      "ville": "Saint-Alban-Leysse",
+      "prix": 27055,
+      "rendement": 3.5,
+      "annonces": 9
+    },
+    {
+      "ville": "Montvalezan",
+      "prix": 25611,
+      "rendement": 3.7,
+      "annonces": 9
+    },
+    {
+      "ville": "Val-d'Is\u00e8re",
+      "prix": 29108,
+      "rendement": 3.3,
+      "annonces": 9
+    },
+    {
+      "ville": "Chavanod",
+      "prix": 30277,
+      "rendement": 3.2,
+      "annonces": 9
+    },
+    {
+      "ville": "Argonay",
+      "prix": 22222,
+      "rendement": 4.3,
+      "annonces": 9
+    },
+    {
+      "ville": "Mont-Saxonnex",
+      "prix": 44162,
+      "rendement": 2.2,
+      "annonces": 9
+    },
+    {
+      "ville": "Scionzier",
+      "prix": 13666,
+      "rendement": 7.0,
+      "annonces": 9
+    },
+    {
+      "ville": "Sainte-Foy-Tarentaise",
+      "prix": 15500,
+      "rendement": 6.2,
+      "annonces": 8
+    },
+    {
+      "ville": "Bassens",
+      "prix": 18000,
+      "rendement": 5.3,
+      "annonces": 8
+    },
+    {
+      "ville": "La Giettaz",
+      "prix": 13283,
+      "rendement": 7.2,
+      "annonces": 8
+    },
+    {
+      "ville": "Val-d'Arc",
+      "prix": 56614,
+      "rendement": 1.7,
+      "annonces": 8
+    },
+    {
+      "ville": "Beaumont",
+      "prix": 24500,
+      "rendement": 3.9,
+      "annonces": 8
+    },
+    {
+      "ville": "Bons-en-Chablais",
+      "prix": 19125,
+      "rendement": 5.0,
+      "annonces": 8
+    },
+    {
+      "ville": "Les Contamines-Montjoie",
+      "prix": 19437,
+      "rendement": 4.9,
+      "annonces": 8
+    },
+    {
+      "ville": "Excenevex",
+      "prix": 10050,
+      "rendement": 9.6,
+      "annonces": 8
+    },
+    {
+      "ville": "Thollon-les-M\u00e9mises",
+      "prix": 28037,
+      "rendement": 3.4,
+      "annonces": 8
+    },
+    {
+      "ville": "Le Biot",
+      "prix": 41821,
+      "rendement": 2.3,
+      "annonces": 8
+    },
+    {
+      "ville": "Entrelacs",
+      "prix": 12928,
+      "rendement": 7.4,
+      "annonces": 7
+    },
+    {
+      "ville": "Sevrier",
+      "prix": 20857,
+      "rendement": 4.6,
+      "annonces": 7
+    },
+    {
+      "ville": "Barberaz",
+      "prix": 16053,
+      "rendement": 6.0,
+      "annonces": 6
+    },
+    {
+      "ville": "Jacob-Bellecombette",
+      "prix": 15840,
+      "rendement": 6.1,
+      "annonces": 6
+    },
+    {
+      "ville": "Faverges-Seythenex",
+      "prix": 20500,
+      "rendement": 4.7,
+      "annonces": 6
+    },
+    {
+      "ville": "Bonne",
+      "prix": 37543,
+      "rendement": 2.6,
+      "annonces": 6
+    },
+    {
+      "ville": "Neydens",
+      "prix": 25750,
+      "rendement": 3.7,
+      "annonces": 6
+    },
+    {
+      "ville": "Minzier",
+      "prix": 5500,
+      "rendement": 17.5,
+      "annonces": 6
+    },
+    {
+      "ville": "Seyssel",
+      "prix": 44000,
+      "rendement": 2.2,
+      "annonces": 6
     }
   ]
 }

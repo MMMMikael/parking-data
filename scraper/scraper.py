@@ -39,7 +39,7 @@ for url in urls:
                 price = float(row["valeur_fonciere"])
                 surface = row["surface_reelle_bati"]
 
-                if surface == "" and 2000 < price < 60000:
+                if surface == "" and 1000 < price < 600000:
 
                     city = row["nom_commune"]
 

@@ -1,0 +1,10 @@
+
+{
+  "villes":[
+    {"ville":"Annecy","prix":18500,"rendement":7.5},
+    {"ville":"Annemasse","prix":14400,"rendement":8.1},
+    {"ville":"Cluses","prix":11200,"rendement":8.9},
+    {"ville":"Sallanches","prix":13900,"rendement":7.8},
+    {"ville":"Thonon","prix":15800,"rendement":7.9}
+  ]
+}

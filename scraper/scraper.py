@@ -27,7 +27,10 @@ for row in reader:
 
             price = float(row["valeur_fonciere"])
 
-            if price > 1000:
+            surface = row["surface_reelle_bati"]
+
+            # parking vendus seuls
+            if surface == "" and 2000 < price < 60000:
 
                 prices.append(price)
 

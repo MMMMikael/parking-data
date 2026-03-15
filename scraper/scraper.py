@@ -1,4 +1,5 @@
 import requests
+import gzip
 import csv
 import io
 import json
@@ -8,10 +9,13 @@ url = "https://files.data.gouv.fr/geo-dvf/latest/csv/2023/departements/74.csv.gz
 
 r = requests.get(url)
 
-# lire le CSV
-content = io.StringIO(r.text)
+# décompresser le fichier gzip
+compressed_file = io.BytesIO(r.content)
+decompressed = gzip.GzipFile(fileobj=compressed_file)
 
-reader = csv.DictReader(content)
+decoded = io.TextIOWrapper(decompressed, encoding="utf-8")
+
+reader = csv.DictReader(decoded)
 
 prices = []
 
@@ -19,25 +23,20 @@ for row in reader:
 
     try:
 
-        if row["code_departement"] == "74":
+        if row["type_local"] == "Dépendance":
 
-            if row["type_local"] == "Dépendance":
+            price = float(row["valeur_fonciere"])
 
-                price = float(row["valeur_fonciere"])
+            if price > 1000:
 
-                if price > 1000:
-
-                    prices.append(price)
+                prices.append(price)
 
     except:
         pass
 
 if prices:
-
     avg_price = int(statistics.mean(prices))
-
 else:
-
     avg_price = 0
 
 data = {
@@ -52,7 +51,6 @@ data = {
 }
 
 with open("data.json","w") as f:
-
     json.dump(data,f,indent=2)
 
 print("data updated")

@@ -13,7 +13,12 @@ urls = [
 
 cities = defaultdict(list)
 
+total_rows = 0
+matched_rows = 0
+
 for url in urls:
+
+    print(f"Téléchargement : {url}")
 
     r = requests.get(url)
 
@@ -25,12 +30,13 @@ for url in urls:
 
     for row in reader:
 
+        total_rows += 1
+
         try:
 
             if row["type_local"] == "Dépendance":
 
                 price = float(row["valeur_fonciere"])
-
                 surface = row["surface_reelle_bati"]
 
                 if surface == "" and 2000 < price < 60000:
@@ -38,6 +44,8 @@ for url in urls:
                     city = row["nom_commune"]
 
                     cities[city].append(price)
+
+                    matched_rows += 1
 
         except:
             pass
@@ -67,4 +75,8 @@ data = {"villes": results}
 with open("data.json","w") as f:
     json.dump(data,f,indent=2)
 
+print("\n------ STATISTIQUES ------")
+print(f"Lignes analysées : {total_rows}")
+print(f"Lignes correspondant au filtre : {matched_rows}")
+print(f"Villes trouvées : {len(results)}")
 print("data updated")
